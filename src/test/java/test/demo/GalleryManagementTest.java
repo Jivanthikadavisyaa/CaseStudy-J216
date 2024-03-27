@@ -53,5 +53,23 @@ public class GalleryManagementTest {
      */
     @Test
     public void testUpdateGallery() {
-        //assertTrue(gallery.updateGallery(3, "yxy", "abc", "ehue", 1, "9
+        //assertTrue(gallery.updateGallery(3, "yxy", "abc", "ehue", 1, "9:30-12:30"));
     }
+
+    /**
+     * Test removing an existing gallery.
+     */
+    @Test
+    public void testRemoveGallery() {
+        //assertTrue(gallery.removeGallery(4));
+    }
+
+    /**
+     * Test searching for galleries.
+     */
+    @Test
+    public void testSearchGalleries() {
+         // List<Gallery> searchResults = gallery.searchGalleries("Test");
+         // assertFalse(searchResults.isEmpty());
+    }
+}
